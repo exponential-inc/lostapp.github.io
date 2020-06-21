@@ -5,10 +5,12 @@ class NavBar extends Component {
 		if (this.props.isMenuOpen === true) {
 			return {
 				transform: 'translateX(0)',
+				display: 'flex',
 			};
 		} else {
 			return {
 				transform: 'translateX(100vw)',
+				display: 'none',
 			};
 		}
 	};

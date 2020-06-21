@@ -8,3 +8,13 @@ $primaryBG: #232b43;
 $secondaryBG: #161e37;
 $primaryText: #ffffff;
 $secondaryText: #e5e5e5;
+
+.all-content {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.main-content {
+	flex: 1;
+}

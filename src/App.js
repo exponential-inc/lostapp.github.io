@@ -18,9 +18,10 @@ class App extends Component {
 	};
 	render() {
 		return (
-			<div>
+			<div className='all-content'>
 				<Header toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} />
 				<NavBar isMenuOpen={this.state.isMenuOpen} />
+				<div className='main-content'></div>
 				<Footer />
 			</div>
 		);
