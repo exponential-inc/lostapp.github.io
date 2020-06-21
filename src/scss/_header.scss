@@ -1,0 +1,45 @@
+@import 'config';
+
+#header {
+	background-color: $primaryBG;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+	height: 8vh;
+	width: 100vw;
+}
+#ham-container {
+	background-color: $primaryBG;
+	border: none;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	right: 10px;
+
+	.ham-line {
+		background-color: $primaryText;
+		width: 3rem;
+		height: 0.25rem;
+		z-index: 64;
+		margin: 0.2rem;
+		border-radius: 10px;
+	}
+}
+
+img {
+	height: 5vh;
+	width: 5vh;
+	position: relative;
+	left: -70vw;
+}
+
+// img::before {
+// 	content: '';
+// 	display: block;
+// 	background-color: white;
+// 	height: 7vh;
+// 	width: 7vh;
+// }
