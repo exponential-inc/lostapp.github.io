@@ -21,12 +21,25 @@
 
 	.ham-line {
 		background-color: $primaryText;
-		width: 3rem;
+		width: 2.5rem;
 		height: 0.25rem;
 		z-index: 64;
 		margin: 0.2rem;
 		border-radius: 10px;
+		transition-duration: 0.2s;
 	}
+
+	// #top {
+	// 	transform-origin: right center;
+	// }
+
+	// #bot {
+	// 	transform-origin: top right;
+	// }
+
+	// #mid {
+	// 	transform-origin: right right;
+	// }
 }
 
 img {

@@ -3,6 +3,7 @@ import './css/App.css';
 
 import Header from './components/Header';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 class App extends Component {
 	state = {
 		isMenuOpen: false,
@@ -20,6 +21,7 @@ class App extends Component {
 			<div>
 				<Header toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} />
 				<NavBar isMenuOpen={this.state.isMenuOpen} />
+				<Footer />
 			</div>
 		);
 	}

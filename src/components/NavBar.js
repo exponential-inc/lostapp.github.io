@@ -4,11 +4,11 @@ class NavBar extends Component {
 	displayState = () => {
 		if (this.props.isMenuOpen === true) {
 			return {
-				transform: 'translateX(100vw)',
+				transform: 'translateX(0)',
 			};
 		} else {
 			return {
-				transform: 'translateX(0)',
+				transform: 'translateX(100vw)',
 			};
 		}
 	};
