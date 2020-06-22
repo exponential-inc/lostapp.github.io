@@ -18,22 +18,22 @@ class NavBar extends Component {
 		return (
 			<ul id='nav' style={this.displayState()}>
 				<li className='nav-item'>
-					<a href='#' className='nav-link'>
+					<a href='#landing' className='nav-link' onClick={this.props.toggleMenu}>
 						Home
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a href='#' className='nav-link'>
+					<a href='#about' className='nav-link' onClick={this.props.toggleMenu}>
 						About
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a href='#' className='nav-link'>
+					<a href='#' className='nav-link' onClick={this.props.toggleMenu}>
 						Get it now
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a href='#' className='nav-link'>
+					<a href='#' className='nav-link' onClick={this.props.toggleMenu}>
 						Contact
 					</a>
 				</li>

@@ -22,7 +22,7 @@ class App extends Component {
 		return (
 			<div className='all-content'>
 				<Header toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} />
-				<NavBar isMenuOpen={this.state.isMenuOpen} />
+				<NavBar toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} />
 				<div className='main-content'>
 					<HomePage />
 					<AboutPage />

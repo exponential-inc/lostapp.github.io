@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 export class InfoCard extends Component {
 	render() {
 		return (
-			<div id='card-container' data-aos='fade-right' data-aos-duration='750' data-aos-delay='100'>
+			<div id='card-container' data-aos='fade-right' data-aos-duration='1000' data-aos-delay='100'>
 				<div className='card-part' id='left-side'>
 					<img src={this.props.imgSrc} alt='' />
 				</div>
