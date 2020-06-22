@@ -4,6 +4,7 @@ import './css/App.css';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import HomePage from './components/HomePage';
 class App extends Component {
 	state = {
 		isMenuOpen: false,
@@ -21,7 +22,9 @@ class App extends Component {
 			<div className='all-content'>
 				<Header toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} />
 				<NavBar isMenuOpen={this.state.isMenuOpen} />
-				<div className='main-content'></div>
+				<div className='main-content'>
+					<HomePage />
+				</div>
 				<Footer />
 			</div>
 		);

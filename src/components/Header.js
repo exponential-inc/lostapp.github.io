@@ -42,7 +42,7 @@ export class Header extends Component {
 	render() {
 		return (
 			<div id='header'>
-				<img src={logo} alt='Exponential Inc.' />
+				<img id='logo' src={logo} alt='Exponential Inc.' />
 				<button id='ham-container' onClick={this.props.toggleMenu}>
 					<span className='ham-line' id='top' style={this.topLineStyle()}></span>
 					<span className='ham-line' id='mid' style={this.midLineStyle()}></span>
