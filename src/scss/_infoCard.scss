@@ -1,0 +1,36 @@
+@import 'config';
+
+#card-container {
+	height: 30vh;
+	width: 90vw;
+	display: flex;
+
+	.card-part {
+		height: 100%;
+		width: 50%;
+		display: flex;
+		align-items: center;
+	}
+
+	#left-side {
+		background-color: $primaryBG;
+		border-radius: 10px 0 0 10px;
+		justify-content: center;
+
+		img {
+			max-width: 90%;
+		}
+	}
+
+	#right-side {
+		background-color: white;
+		border-radius: 0 10px 10px 0;
+
+		p {
+			text-align: center;
+			font-size: 1rem;
+			font-family: $pri-font;
+			padding: 5%;
+		}
+	}
+}
