@@ -7,6 +7,9 @@
 	justify-content: flex-start;
 	height: 8vh;
 	width: 100vw;
+	position: fixed;
+	z-index: 99;
+	opacity: 0.99;
 }
 #ham-container {
 	background-color: $primaryBG;

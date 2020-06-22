@@ -1,0 +1,20 @@
+@import 'config';
+
+#features-text-container {
+	width: 90%;
+	margin: 1rem 0;
+	h3 {
+		font-family: $pri-font;
+		font-size: 1.5rem;
+		color: white;
+		text-align: center;
+	}
+
+	p {
+		margin: 0.3rem 0;
+		font-family: $pri-font;
+		font-size: 1rem;
+		color: white;
+		text-align: center;
+	}
+}

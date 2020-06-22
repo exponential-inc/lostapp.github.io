@@ -43,11 +43,11 @@ export class Header extends Component {
 		return (
 			<div id='header'>
 				<img id='logo' src={logo} alt='Exponential Inc.' />
-				<button id='ham-container' onClick={this.props.toggleMenu}>
+				<div id='ham-container' onClick={this.props.toggleMenu}>
 					<span className='ham-line' id='top' style={this.topLineStyle()}></span>
 					<span className='ham-line' id='mid' style={this.midLineStyle()}></span>
 					<span className='ham-line' id='bot' style={this.botLineStyle()}></span>
-				</button>
+				</div>
 			</div>
 		);
 	}

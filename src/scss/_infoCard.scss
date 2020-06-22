@@ -4,6 +4,7 @@
 	height: 30vh;
 	width: 90vw;
 	display: flex;
+	margin: 1rem 0;
 
 	.card-part {
 		height: 100%;
@@ -17,7 +18,7 @@
 		border-radius: 10px 0 0 10px;
 		justify-content: center;
 
-		img {
+		.infocard-img {
 			max-width: 90%;
 		}
 	}
