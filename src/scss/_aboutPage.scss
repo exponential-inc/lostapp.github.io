@@ -40,8 +40,28 @@
 		flex-direction: column;
 		//justify-content: center;
 		align-items: center;
+
 		#iphone-x {
 			min-width: 90vw;
+		}
+	}
+
+	.wave {
+		width: 200vw;
+		margin-top: auto;
+		display: block;
+		animation: wavey 15s linear infinite;
+
+		@keyframes wavey {
+			0% {
+				transform: translateX(0rem);
+			}
+			50% {
+				transform: translateX(10rem);
+			}
+			100% {
+				transform: translateX(0rem);
+			}
 		}
 	}
 }

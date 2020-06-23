@@ -23,12 +23,12 @@ class NavBar extends Component {
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a href='#about' className='nav-link' onClick={this.props.toggleMenu}>
+					<a href='#wave1' className='nav-link' onClick={this.props.toggleMenu}>
 						About
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a href='#' className='nav-link' onClick={this.props.toggleMenu}>
+					<a href='#wave2' className='nav-link' onClick={this.props.toggleMenu}>
 						Get it now
 					</a>
 				</li>

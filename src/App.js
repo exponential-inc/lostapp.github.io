@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
+import GetIt from './components/GetIt';
 class App extends Component {
 	state = {
 		isMenuOpen: false,
@@ -26,6 +27,7 @@ class App extends Component {
 				<div className='main-content'>
 					<HomePage />
 					<AboutPage />
+					<GetIt />
 				</div>
 				<Footer />
 			</div>

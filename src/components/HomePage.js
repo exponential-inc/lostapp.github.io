@@ -12,7 +12,7 @@ export class HomePage extends Component {
 					<p id='lost-text' data-aos='fade-down' data-aos-duration='1500' data-aos-delay='750'>
 						made for finding your loved ones, no matter where they are
 					</p>
-					<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320' className='wave'>
+					<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320' className='wave' id='wave1'>
 						<path
 							fill='#6197ff'
 							fill-opacity='1'
