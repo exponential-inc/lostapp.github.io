@@ -3,6 +3,10 @@
 #contact {
 	margin-top: -1px;
 
+	#contact-content {
+		background-color: $extraBG;
+	}
+
 	#frame-container {
 		position: relative;
 		overflow: hidden;
