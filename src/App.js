@@ -11,7 +11,16 @@ import Contact from './components/Contact';
 class App extends Component {
 	state = {
 		isMenuOpen: false,
+		isDesktop: false,
 	};
+	//check window size
+	componentDidMount() {
+		if (document.body.clientWidth >= 800) {
+			this.setState({isDesktop: true, isMenuOpen: true});
+		} else {
+			this.setState({isDesktop: false});
+		}
+	}
 	//toggle menu
 	toggleMenu = () => {
 		if (this.state.isMenuOpen === true) {
@@ -20,20 +29,36 @@ class App extends Component {
 			this.setState({isMenuOpen: true});
 		}
 	};
+
 	render() {
-		return (
-			<div className='all-content'>
-				<Header toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} />
-				<NavBar toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} />
-				<div className='main-content'>
-					<HomePage />
-					<AboutPage />
-					<GetIt />
-					<Contact />
+		if (this.state.isDesktop === true) {
+			return (
+				<div className='all-content'>
+					<Header toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} isDesktop={this.state.isDesktop} />
+					<div className='main-content'>
+						<HomePage />
+						<AboutPage />
+						<GetIt />
+						<Contact />
+					</div>
+					<Footer />
 				</div>
-				<Footer />
-			</div>
-		);
+			);
+		} else {
+			return (
+				<div className='all-content'>
+					<Header toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} isDesktop={this.state.isDesktop} />
+					<NavBar toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} />
+					<div className='main-content'>
+						<HomePage />
+						<AboutPage />
+						<GetIt />
+						<Contact />
+					</div>
+					<Footer />
+				</div>
+			);
+		}
 	}
 }
 
