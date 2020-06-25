@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import GetIt from './components/GetIt';
+import Contact from './components/Contact';
 class App extends Component {
 	state = {
 		isMenuOpen: false,
@@ -28,6 +29,7 @@ class App extends Component {
 					<HomePage />
 					<AboutPage />
 					<GetIt />
+					<Contact />
 				</div>
 				<Footer />
 			</div>

@@ -33,7 +33,7 @@ class NavBar extends Component {
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a href='#' className='nav-link' onClick={this.props.toggleMenu}>
+					<a href='#contact-content' className='nav-link' onClick={this.props.toggleMenu}>
 						Contact
 					</a>
 				</li>

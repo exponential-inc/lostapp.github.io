@@ -9,10 +9,30 @@
 	.get-it-content {
 		background-color: $extraBG;
 		padding: 1rem;
+		padding-bottom: 0;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: center;
+
+		.wave {
+			width: 200vw;
+			margin-top: auto;
+			display: block;
+			animation: wavey 15s linear infinite;
+
+			@keyframes wavey {
+				0% {
+					transform: translateX(0rem);
+				}
+				50% {
+					transform: translateX(10rem);
+				}
+				100% {
+					transform: translateX(0rem);
+				}
+			}
+		}
 	}
 
 	h2 {
@@ -43,6 +63,25 @@
 			padding: 1rem;
 			color: $primaryText;
 			font-size: 3rem;
+		}
+
+		.wave {
+			width: 200vw;
+			margin-top: auto;
+			display: block;
+			animation: wavey 15s linear infinite;
+
+			@keyframes wavey {
+				0% {
+					transform: translateX(0rem);
+				}
+				50% {
+					transform: translateX(10rem);
+				}
+				100% {
+					transform: translateX(0rem);
+				}
+			}
 		}
 	}
 }

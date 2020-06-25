@@ -1,13 +1,14 @@
 @import 'config';
 
 #card-container {
-	height: 30vh;
+	height: auto;
+	min-height: 30vh;
 	width: 90vw;
 	display: flex;
 	margin: 1rem 0;
 
 	.card-part {
-		height: 100%;
+		height: auto;
 		width: 50%;
 		display: flex;
 		align-items: center;
