@@ -1,18 +1,28 @@
 import React, {Component} from 'react';
 
 export class HomePage extends Component {
+	desktopStyles = ['8rem', '2rem', 'none'];
+
+	mobileStyles = ['5rem', '1rem', 'wavey 15s linear infinite'];
+	responsiveStyles = (idNum) => {
+		if (this.props.isDesktop === true) {
+			return this.desktopStyles[idNum];
+		} else {
+			return this.mobileStyles[idNum];
+		}
+	};
 	render() {
 		return (
 			<div>
 				<section id='landing'>
 					<div id='center'> </div>
-					<h1 id='lost-header' data-aos='fade-down' data-aos-duration='1500'>
+					<h1 id='lost-header' data-aos='fade-down' data-aos-duration='1500' style={{fontSize: this.responsiveStyles(0)}}>
 						lost
 					</h1>
-					<p id='lost-text' data-aos='fade-down' data-aos-duration='1500' data-aos-delay='750'>
+					<p id='lost-text' data-aos='fade-down' data-aos-duration='1500' data-aos-delay='750' style={{fontSize: this.responsiveStyles(1)}}>
 						made for finding your loved ones, no matter where they are
 					</p>
-					<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320' className='wave' id='wave1'>
+					<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320' className='wave' id='wave1' style={{animation: this.responsiveStyles(2)}}>
 						<path
 							fill='#6197ff'
 							fill-opacity='1'

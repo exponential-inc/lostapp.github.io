@@ -36,12 +36,12 @@ class App extends Component {
 				<div className='all-content'>
 					<Header toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} isDesktop={this.state.isDesktop} />
 					<div className='main-content'>
-						<HomePage />
-						<AboutPage />
-						<GetIt />
-						<Contact />
+						<HomePage isDesktop={this.state.isDesktop} />
+						<AboutPage isDesktop={this.state.isDesktop} />
+						<GetIt isDesktop={this.state.isDesktop} />
+						<Contact isDesktop={this.state.isDesktop} />
 					</div>
-					<Footer />
+					<Footer isDesktop={this.state.isDesktop} />
 				</div>
 			);
 		} else {
@@ -50,12 +50,12 @@ class App extends Component {
 					<Header toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} isDesktop={this.state.isDesktop} />
 					<NavBar toggleMenu={this.toggleMenu} isMenuOpen={this.state.isMenuOpen} />
 					<div className='main-content'>
-						<HomePage />
-						<AboutPage />
-						<GetIt />
-						<Contact />
+						<HomePage isDesktop={this.state.isDesktop} />
+						<AboutPage isDesktop={this.state.isDesktop} />
+						<GetIt isDesktop={this.state.isDesktop} />
+						<Contact isDesktop={this.state.isDesktop} />
 					</div>
-					<Footer />
+					<Footer isDesktop={this.state.isDesktop} />
 				</div>
 			);
 		}
