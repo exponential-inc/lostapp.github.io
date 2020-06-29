@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/lostapp.github.io/static/css/main.efd8d228.chunk.css",
-    "main.js": "/lostapp.github.io/static/js/main.0e4ec84c.chunk.js",
-    "main.js.map": "/lostapp.github.io/static/js/main.0e4ec84c.chunk.js.map",
-    "runtime-main.js": "/lostapp.github.io/static/js/runtime-main.c4994932.js",
-    "runtime-main.js.map": "/lostapp.github.io/static/js/runtime-main.c4994932.js.map",
-    "static/js/2.b8127024.chunk.js": "/lostapp.github.io/static/js/2.b8127024.chunk.js",
-    "static/js/2.b8127024.chunk.js.map": "/lostapp.github.io/static/js/2.b8127024.chunk.js.map",
-    "index.html": "/lostapp.github.io/index.html",
-    "precache-manifest.5f7cd2458f585e5fdfd0a2c410586517.js": "/lostapp.github.io/precache-manifest.5f7cd2458f585e5fdfd0a2c410586517.js",
-    "service-worker.js": "/lostapp.github.io/service-worker.js",
-    "static/css/main.efd8d228.chunk.css.map": "/lostapp.github.io/static/css/main.efd8d228.chunk.css.map",
-    "static/js/2.b8127024.chunk.js.LICENSE.txt": "/lostapp.github.io/static/js/2.b8127024.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/lostapp.github.io/static/media/death-star.fc7849e4.svg",
-    "static/media/exponential-inc-logo.png": "/lostapp.github.io/static/media/exponential-inc-logo.0d84b093.png",
-    "static/media/iphone-x-flat-buttons.svg": "/lostapp.github.io/static/media/iphone-x-flat-buttons.a4cbb8ec.svg",
-    "static/media/thinking.svg": "/lostapp.github.io/static/media/thinking.4b1343a1.svg",
-    "static/media/wheelchair.svg": "/lostapp.github.io/static/media/wheelchair.2462be64.svg",
-    "static/media/world_map.svg": "/lostapp.github.io/static/media/world_map.ac2b841c.svg"
+    "main.css": "/lost-app-site/static/css/main.8fc7afd1.chunk.css",
+    "main.js": "/lost-app-site/static/js/main.e8d7761a.chunk.js",
+    "main.js.map": "/lost-app-site/static/js/main.e8d7761a.chunk.js.map",
+    "runtime-main.js": "/lost-app-site/static/js/runtime-main.f203cacf.js",
+    "runtime-main.js.map": "/lost-app-site/static/js/runtime-main.f203cacf.js.map",
+    "static/js/2.b8127024.chunk.js": "/lost-app-site/static/js/2.b8127024.chunk.js",
+    "static/js/2.b8127024.chunk.js.map": "/lost-app-site/static/js/2.b8127024.chunk.js.map",
+    "index.html": "/lost-app-site/index.html",
+    "precache-manifest.ede0338224eb32c8205fdab1959b6230.js": "/lost-app-site/precache-manifest.ede0338224eb32c8205fdab1959b6230.js",
+    "service-worker.js": "/lost-app-site/service-worker.js",
+    "static/css/main.8fc7afd1.chunk.css.map": "/lost-app-site/static/css/main.8fc7afd1.chunk.css.map",
+    "static/js/2.b8127024.chunk.js.LICENSE.txt": "/lost-app-site/static/js/2.b8127024.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/lost-app-site/static/media/death-star.fc7849e4.svg",
+    "static/media/exponential-inc-logo.png": "/lost-app-site/static/media/exponential-inc-logo.0d84b093.png",
+    "static/media/iphone-x-flat-buttons.svg": "/lost-app-site/static/media/iphone-x-flat-buttons.a4cbb8ec.svg",
+    "static/media/thinking.svg": "/lost-app-site/static/media/thinking.4b1343a1.svg",
+    "static/media/wheelchair.svg": "/lost-app-site/static/media/wheelchair.2462be64.svg",
+    "static/media/world_map.svg": "/lost-app-site/static/media/world_map.ac2b841c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4994932.js",
+    "static/js/runtime-main.f203cacf.js",
     "static/js/2.b8127024.chunk.js",
-    "static/css/main.efd8d228.chunk.css",
-    "static/js/main.0e4ec84c.chunk.js"
+    "static/css/main.8fc7afd1.chunk.css",
+    "static/js/main.e8d7761a.chunk.js"
   ]
 }
