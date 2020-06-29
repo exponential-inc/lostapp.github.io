@@ -8,24 +8,25 @@ export class Footer extends Component {
 					<div className='links-col'>
 						<div className='link-container'>
 							{' '}
-							<a href='#' className='nav-link'>
+							<a href='#landing' className='nav-link'>
 								Home
 							</a>
-							<a href='#' className='nav-link'>
+							<a href='#wave1' className='nav-link'>
 								About
 							</a>
-							<a href='#' className='nav-link'>
+							<a href='#wave2' className='nav-link'>
 								Get it now
 							</a>
-							<a href='#' className='nav-link'>
+							<a href='#contact-content' className='nav-link'>
 								Contact
 							</a>
 						</div>
 					</div>
 					<div className='links-col'>
 						<div className='link-container'>
-							<i className='fab fa-github-square'></i>
-							<i className='fas fa-envelope-square'></i>
+							<a href='https://github.com/exponential-inc/lost-app-site' className='github-link'>
+								<i className='fab fa-github-square' />
+							</a>
 						</div>
 					</div>
 				</div>
